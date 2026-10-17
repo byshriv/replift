@@ -1,0 +1,35 @@
+# dependencies and builds
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# environment files that may hold real values (never commit these)
+.env
+.env.local
+.env.*.local
+
+# signing keys and credentials: NEVER commit
+*.keystore
+*.jks
+*.p12
+*.pem
+keystore.properties
+google-services.json
+service-account*.json
+
+# android build output
+android/**/build/
+android/.gradle/
+android/local.properties
+android/app/release/
+
+# editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.log

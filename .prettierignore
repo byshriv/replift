@@ -1,0 +1,8 @@
+dist
+coverage
+playwright-report
+test-results
+node_modules
+android
+package-lock.json
+docs/exercise-list.csv

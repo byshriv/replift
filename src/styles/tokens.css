@@ -1,0 +1,16 @@
+/* Design tokens. The whole app reads colours and motion from here. */
+:root {
+  --bg: #121010;
+  --s1: #1a1817;
+  --s2: #252221;
+  --s3: #2f2b2a;
+  --text: #f7f5e4;
+  --muted: #8e897d;
+  --accent: #c4bca8;
+  --green: #62d391;
+  --red: #ef5b4d;
+  --radius-card: 28px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --font: 'Rethink Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color-scheme: dark;
+}
