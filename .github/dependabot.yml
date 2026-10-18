@@ -8,6 +8,16 @@ updates:
       minor-and-patch:
         update-types: [minor, patch]
     open-pull-requests-limit: 5
+    ignore:
+      # ESLint 10 and TypeScript 7 are not supported by our lint plugins yet.
+      # Remove these rules once typescript-eslint, eslint-plugin-react and
+      # eslint-plugin-jsx-a11y support them.
+      - dependency-name: eslint
+        update-types: ['version-update:semver-major']
+      - dependency-name: '@eslint/js'
+        update-types: ['version-update:semver-major']
+      - dependency-name: typescript
+        update-types: ['version-update:semver-major']
   - package-ecosystem: github-actions
     directory: /
     schedule:

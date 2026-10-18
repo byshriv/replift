@@ -10,3 +10,9 @@ All notable changes are listed here. The format follows [Keep a Changelog](https
 - GitHub Actions: CI, GitHub Pages deploy, CodeQL scan, Dependabot.
 - Documentation: README, architecture, decisions, roadmap, contributing, security policy.
 - Central configuration for links and keys (`src/config.ts`).
+
+### Changed
+
+- GitHub Actions updated to versions that run on Node 24; runners pinned to Ubuntu 24.04.
+- Dependabot ignores major ESLint and TypeScript updates until the lint plugins support them.
+- Expanded GitHub setup guide (security, rulesets, Actions settings).
